@@ -1,0 +1,762 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media only screen and (max-width:1300px) {
+	div.menu ul li {
+    padding: 17px 7px;
+}
+section.main-banner p.desc {
+    font-size: 20px;
+    color: #000;
+}
+}
+
+@media only screen and (max-width:1199px) {
+	div.extra_link button.mdc-button {
+    font-size: 13px;
+}
+.menu ul li a {
+    font-size: 15px;
+}
+.logo img {
+    max-width: 150px;
+}
+section.main-banner .doctor-image {
+    width: 40%;
+}
+section.main-banner .doctor-ditail {
+    width: 60%;
+}
+.ps-des p {
+    font-size: 18px;
+}
+.ps-image {
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ps-image img {
+    max-width: 60px;
+    height: auto !important;
+}
+.dleft img {
+    max-width: 100%;
+}
+h2.dsf-title {
+    font-size: 40px;
+}
+p.dsf-subtitle {
+    font-size: 20px;
+}
+h3.download-title {
+    font-size: 33px;
+}
+.dright p {
+    font-size: 22px;
+}
+
+.register .slright {
+    width: calc(100% - 125px);
+    float: right;
+}
+.register-form {
+    padding: 15px 15px;
+}
+
+ul.search-list li.search-itme .se-des ul li {
+    width: 100%;
+}
+.features-list label {
+    font-size: 10px;
+}
+.se-des p.post {
+    font-size: 16px;
+    line-height: 20px;
+}
+.se-des p.dname {
+    margin-bottom: 10px;
+}
+ul.search-list li.search-itme .rating {
+    margin: 10px 0px;
+}
+div.book-detail div.tab-pane ul li a {
+    font-size: 14px;
+}
+.profildetail-r {
+    width: 75%;
+}
+.profildetail-l {
+    width: 23%;
+}
+.profildetail .rating-details p.rating-title {
+    font-size: 19px;
+}
+.sidebar-box .hospital-address p.hadd {
+    font-size: 19px;
+}
+.total-summary table tr td:nth-child(2n) {
+    max-width: 50px;
+}
+.sidebar.rightcol div.chk-right div.chk-des ul li span {
+    font-size: 14px;
+}
+.success-right p {
+    font-size: 17px;
+}
+.sidebar-chat.profile .name-rat p.dname {
+    font-size: 18px;
+}
+.sidebar-chat.coversation .con-title h3.conve-title {
+    font-size: 16px;
+}
+.aboutcontent {
+    padding-top: 25px;
+}
+section.about {
+    padding: 20px 0px;
+}
+
+.extra_link button {
+    margin-left: 7px;
+}
+}
+
+@media only screen and (max-width:991px) {
+	h2.dsf-title {
+    font-size: 36px;
+}
+.formbg {
+    padding: 30px 0px;
+}
+p.dsf-subtitle {
+    margin-bottom: 30px;
+}
+.banner .doctor-image img {
+    height: 310px;
+}
+.banner button.mdc-button {
+    margin-top: 30px;
+}
+section.main-banner h3.doctor-title {
+    font-size: 24px;
+}
+section.main-banner p.desc {
+    font-size: 18px;
+    line-height: 22px;
+}
+.doctor-ditail button.mdc-button {
+    margin-top: 30px;
+}
+section.main-banner .doctor-ditail {
+    padding: 30px 0px;
+}
+section.main-banner .doctor-image img {
+    height: 300px;
+}
+section.specialities {
+    padding: 30px 0px;
+}
+h3.title {
+    font-size: 27px;
+}
+.slider-header a.title-linke {
+    font-size: 18px;
+}
+.specialitiesbox div.owl-nav {
+    display: none;
+}
+section.pdoctors {
+    padding: 30px 0px;
+}
+.reliablebox .owl-nav {
+    display: none;
+}
+.dright {
+    padding: 30px 30px;
+}
+h3.download-title {
+    font-size: 24px;
+	margin-bottom: 20px;
+}
+.dright p {
+    font-size: 20px;
+}
+.app-download .mdc-text-field.mdc-text-field--outlined {
+    background: #fff;
+    max-width: 235px;
+}
+div.app-img img {
+    margin-right: 15px;
+    min-width: 108px;
+    width: 100px;
+}
+.footer-logo img {
+    max-width: 100%;
+    width: 200px;
+}
+.social-ico a {
+    margin-right: 13px;
+}
+.copyright div.col-md-6.col-lg-6 {
+    width: auto;
+    max-width: initial;
+    display: inline-block;
+}
+.copyright .row div.col-md-6.col-lg-6:nth-child(2) {
+    float: right;
+}
+h3.footer-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+footer {
+    padding: 30px 0px 30px;
+}
+div.menu {
+    background: rgba(255,255,255,1);
+    position: fixed;
+    left: -100%;
+    height: 100%;
+    z-index: 99;
+    top: 0px;
+    max-width: 250px;
+    transition: all 0.5s ease;
+    width: 100%;
+	z-index:9999;
+	overflow-y:auto;
+}
+div.menu.active {
+    left: 0px;
+}
+span.mobile-menu.active::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+    width: 100%;
+}
+.extra_link {
+    padding-top: 7px;
+}
+.extra_link button {
+    vertical-align: top;
+}
+span.mobile-menu {
+    display: inline-block;
+    height: 38px;
+    line-height: initial;
+    border: 1px solid #1ec0f3;
+    color: #1ec0f3;
+    padding: 0px 10px;
+    line-height: 37px;
+    border-radius: 5px;
+}
+span.mobile-menu::after {
+    content: "\f0c9";
+    font-family: fontawesome;
+    font-size: 24px;
+}
+div.menu ul li {
+    padding: 10px 15px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.login-inner h2.login-title {
+    font-size: 25px;
+}
+h3.loginform-title {
+    font-size: 18px;
+}
+div.login-form {
+    padding: 0px 10px;
+}
+div.login-box div.login-img {
+    padding: 0px 10px;
+}
+
+.register-img {
+    width: 100%;
+    padding: 15px 25px;
+    border-right: none;
+}
+.register-form {
+    padding: 15px 25px;
+    width: 100%;
+    margin-top: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+.register-inner h3.registerform-title {
+    text-align: center;
+}
+.register-box h2.register-title a {
+    font-size: 25px;
+}
+div.sr-left {
+    width: 100%;
+}
+.sr-right.sidebar {
+    width: 100%;
+}
+.sr-right.sidebar iframe{
+    width: 100%;
+}
+.search-title .title-box h3 {
+    font-size: 28px;
+}
+div.profildetail {
+    flex-wrap: wrap;
+}
+.profildetail-l {
+    width: 100%;
+    margin: 0px 0px 20px;
+}
+.rating-details {
+    flex-wrap: wrap;
+}
+.profildetail p.total-rating {
+    display: block;
+    width: 100%;
+}
+.profildetail-r {
+    width: 100%;
+}
+.main.profil div.profile-twocoll .leftcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main.profil div.profile-twocoll .leftcol {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.sidebar {
+    width: 100%;
+}
+.sidebar-box .maip iframe {
+    width: 100%;
+}
+.checkout-twocoll div.leftcol {
+    width: 100%;
+}
+.sidebar.rightcol div.chk-right .chk-image {
+    width: 130px;
+}
+.sidebar.rightcol div.chk-right div.chk-item div.chk-des {
+    width: calc(100% - 150px);
+}
+.success-twocoll div.leftcol {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.chat-twocoll div.mainchat {
+    width: 100%;
+    margin-top: 30px;
+}
+.aboutcontent {
+    width: 100%;
+    float: left;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+section.our-team ul li {
+    width: 32%;
+    list-style: none;
+    display: inline-block;
+    float: none;
+    padding: 15px;
+}
+section.our-team ul {
+    text-align: center;
+}
+section.testimonial p.Message {
+    width: 100% !important;
+    max-width: 90% !important;
+}
+.about-image {
+    width: 100%;
+}
+section.our-team ul li {
+    width: 49%;
+}
+select#language {
+    margin-left: 7px;
+}
+}
+
+@media only screen and (max-width:767px) {
+	h2.dsf-title {
+    font-size: 30px;
+}
+section.main-banner p.dd-tag {
+    margin-bottom: 30px;
+}
+h4.reliable-title {
+    font-size: 22px;
+}
+.reliable-item {
+    padding: 0px 15px;
+}
+.reliable p {
+    font-size: 16px;
+}
+.cutom-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+section.download .container {
+    padding: 0px;
+}
+.dleft {
+    width: 100%;
+    background: #fff;
+    padding: 0px 15px 20px;
+}
+.dleft img {
+    max-width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+.dright {
+    width: 100%;
+}
+.search-title .title-box {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    float: none;
+}
+.search-title div.fillter-box {
+    width: auto;
+    float: none;
+    display: inline-block;
+	min-width: 300px;
+    text-align: left;
+}
+.search-title {
+    text-align: center;
+}
+ul.search-list li.search-itme .se-des {
+    width: 45%;
+}
+ul.search-list li.search-itme div.se-buttons {
+    width: 35%;
+}
+div.book-detail div.tab-pane ul li {
+    padding: 3px;
+}
+section.our-team ul li {
+    width: 49%;
+}
+}
+
+@media only screen and (max-width:639px) {
+	section.main-banner .doctor-image {
+    display: none;
+}
+section.main-banner .doctor-ditail {
+    padding: 20px 0px;
+    width: 100%;
+}
+.pdbox div.item {
+    padding: 5px;
+}
+.formbg form > div {
+    width: 100%;
+}
+.formbg form {
+    flex-wrap: wrap;
+}
+.formbg form > div.subbtn {
+    max-width: 100%;
+}
+.subbtn button i::after {
+    content: "Search";
+    font-size: 18px;
+    padding-left: 15px;
+}
+section.main-banner .doctor-ditail {
+    text-align: center;
+}
+.custome-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+span.mobile-menu {
+    position: absolute;
+    top: 22px;
+    right: 15px;
+}
+.extra_link button {
+    font-size: 18px;
+    margin-left: 3px;
+}
+div.extra_link {
+    padding-top: 20px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+}
+div.login-box div.login-img {
+    width: 100%;
+	display:none;
+}
+div.login-form {
+    padding: 0px 0px;
+    width: 100%;
+}
+.login-inner h2.login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.login-box span.close {
+    top: 0px;
+    right: 5px;
+    position: absolute;
+}
+.register-form {
+    padding: 15px 0px;
+}
+ul.search-list li.search-itme div.se-buttons {
+    width: 100%;
+}
+ul.search-list li.search-itme .se-des {
+    width: 75%;
+}
+ul.search-list li.search-itme .se-image {
+    width: 25%;
+}
+div.book-detail div.tab-pane ul li {
+    width: 24%;
+}
+div.profile-tab .tab-title {
+    width: 100%;
+    text-align: center;
+}
+div.tab-details {
+    margin: 0px !important;
+    border-radius: 0px 0px 10px 10px;
+}
+div.profile-tab div.tab-title.active a::after {
+    left: 0px;
+}
+div.profile-tab .tab-title {
+    width: 100%;
+    text-align: center;
+    border-color: rgb(151, 151, 151);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+div.profile-tab .tab-title.active {
+    border-radius: 10px 10px 0px 0px;
+}
+div.profildetail {
+    padding: 15px;
+}
+div.callchat a {
+    padding: 5px;
+}
+
+select#language {
+    margin-left: 7px;
+    position: absolute;
+    top: 22px;
+    right: 70px;
+}
+}
+
+@media only screen and (max-width:479px) {
+	h2.dsf-title {
+    font-size: 24px;
+}
+p.dsf-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+}
+section.main-banner div.slide-row {
+    padding: 0px 20px;
+}
+h3.title {
+    font-size: 24px;
+}
+.slider-header a.title-linke {
+    font-size: 14px;
+}
+.dright {
+    padding: 20px 20px;
+}
+.dright p {
+    font-size: 15px;
+    line-height: 23px;
+}
+.app-download .mdc-text-field.mdc-text-field--outlined {
+    background: #fff;
+    max-width: 100%;
+}
+.app-download form button.mdc-button {
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+}
+.copyright {
+    text-align: center;
+}
+.copyright .row div.col-md-6.col-lg-6:nth-child(2) {
+    float: none;
+    margin-top: 15px;
+}
+div.login-box {
+    padding: 25px 15px;
+}
+
+.register-box h2.register-title a {
+    font-size: 20px;
+    line-height: 23px;
+    position: relative;
+    padding-left: 26px;
+    display: inline-block;
+}
+.register-box h2.register-title a i {
+    position: absolute;
+    left: 0;
+}
+.register .slright {
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+.register div.input-field {
+    margin-bottom: 10px;
+}
+.register-inner h3.registerform-title {
+    text-align: center;
+    font-size: 20px;
+}
+ul.search-list li.search-itme .se-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+ul.search-list li.search-itme .se-des {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.search-title div.fillter-box {
+    min-width: 280px;
+}
+.search-title .title-box h3 {
+    font-size: 24px;
+}
+.search-title .title-box p {
+    line-height: 20px;
+}
+div.book-detail div.tab-pane ul li {
+    width: 32%;
+}
+.checkout-twocoll .formfiled .field {
+    width: 100%;
+}
+.checkout-twocoll .formfiled .field {
+    width: 100% !important;
+}
+.sidebar.rightcol div.chk-right .chk-image {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.sidebar.rightcol div.chk-right div.chk-item div.chk-des {
+    width: 100%;
+}
+.tc .mdc-checkbox {
+    vertical-align: top;
+}
+.checkout-twocoll .formfiled .field.tc label {
+    position: relative;
+    top: 5px;
+    width: calc(100% - 44px);
+    vertical-align: top;
+}
+div.tmessage p {
+    font-size: 17px;
+    line-height: 25px;
+}
+table.appoinmentd-detail tr td {
+    padding: 10px;
+    vertical-align: top;
+}
+div.appoinmentd-box {
+    padding: 10px;
+}
+.success-right p {
+    font-size: 16px;
+}
+
+h2.rmainchat-title a {
+    font-size: 20px;
+}
+.chatsection div.chat-header .left {
+    width: 60%;
+}
+.chatsection div.chat-header h3.docname {
+    font-size: 14px;
+}
+.chatsection div.chat-header .left .pro-pic {
+    width: 40px;
+}
+.chatsection div.chat-header .left .pro-pic img {
+    width: 40px;
+    height: 40px;
+}
+div.doctor-chat .message img {
+    margin-bottom: 5px;
+}
+.chat-footer {
+    padding: 10px;
+}
+.chat-footer form a {
+    width: 35px;
+}
+.chat-footer form input[type="text"] {
+    width: calc(100% - 87px);
+}
+
+.aboutcontent h3.about-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+section.testimonial h3.dd-tag {
+    margin-bottom: 25px;
+}
+section.our-team ul li {
+    width: 100%;
+}
+section.testimonial h3.dd-tag {
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+section.our-team h3.team-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+section.testimonial p.Message {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+section.tc h3.tc-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+a.callend {
+    position: relative;
+    right: 0;
+    top: 0;
+}
+}

@@ -1,0 +1,1525 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hefae</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/vendor.bundle.base.css" type="text/css" rel="stylesheet">
+<link href="mdi/css/materialdesignicons.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+<link href="css/custom.css" type="text/css" rel="stylesheet">
+<link href="css/custom-rtl.css" type="text/css" rel="stylesheet">
+<link href="css/responsive.css" type="text/css" rel="stylesheet">
+<link href="css/responsive-rtl.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="mdc-theme--background ltr">
+<!-- Header -->
+<header>
+<div class="container">
+<div class="custome-row">
+<!-- Logo -->
+<div class="logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<!-- Menu -->
+<div class="menu">
+<ul>
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Diagnotics</a></li>
+<li><a href="#">Pharmacy</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Home Care</a></li>
+<li><a href="#">Diagnostics</a></li>
+</ul>
+</div>
+<!-- login/doctor btton -->
+<div class="extra_link">
+<span class="mobile-menu"></span>
+<select id="language">
+  <option value="eng">LTR</option>
+  <option value="arbi">RTL</option>
+</select>
+<button class="mdc-button mdc-button--raised">Are you a doctor</button>
+<button class="mdc-button mdc-button--outlined ls-btn">Log in / Sign up</button>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Doctor Search-form -->
+
+<section class="dsf">
+<div class="formbg">
+<div class="container">
+<form>
+<div class="specify">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-search" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="surgery">
+                            surgery
+                          </li>
+                          <li class="mdc-list-item" data-value="heart and blood vessels">
+                            heart and blood vessels
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            Chest and ear
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            Dermatology and cosmetology
+                          </li>
+						  <li class="mdc-list-item" data-value="Common diseases">
+                            Common diseases
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Speciality</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="city">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="10th of ramdan">
+                            10th of ramdan
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose city</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="area">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="cairo">
+                            cairo
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            alexandria
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            sharkia
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose area</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="doctor-name">
+<div class="mdc-text-field">
+                          <i class="fa fa-stethoscope fa-6" aria-hidden="true"></i>
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-line-ripple"></div>
+                          <label for="text-field-hero-input" class="mdc-floating-label">Doctor name</label>
+                        </div>
+</div>
+<div class="subbtn">
+<button class="mdc-button mdc-button--raised"><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+</form>					
+</div>
+</div>
+</section>
+
+<!-- search-main -->
+
+<section class="main">
+<div class="container">
+<!-- search-title and filter -->
+<div class="search-title">
+<div class="title-box">
+<h3>Book from 2453 Doctors in Cairo</h3>
+<p>Find accurate timings and details about each doctor</p>
+</div>
+<div class="fillter-box">
+<div class="filter-item filterby">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+                      <input type="hidden" name="enhanced-select">
+					  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Fillter by:</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+
+<div class="filter-item sortby">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+                      <input type="hidden" name="enhanced-select">
+					  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                          <li class="mdc-list-item" data-value="loram">
+                            loram
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Sort by:</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+</div>
+</div>
+
+<!-- Searchitem and sidebar -->
+
+<div class="searchresults">
+<div class="sr-left">
+<ul class="search-list">
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+			  <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div> 
+			  </div>
+</li>
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+              <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div>
+			  </div>
+</li>
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+              <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div>
+			  </div>
+</li>
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+              <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div>
+			  </div>
+</li>
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+              <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div>
+			  </div>
+</li>
+<li class="search-itme">
+<div class="se-item">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="se-des">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <p class="post">MDS- Periodontology and Oral Implantology, BDS</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"></div>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">30 minutes</span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987</span></li>
+			  </ul>
+			  </div>
+			  <div class="se-buttons">
+			  <ul class="thumb-img">
+			  <li><img src="image/thumb1.png"></li>
+			  <li><img src="image/thumb2.png"></li>
+			  <li><img src="image/thumb3.png"></li>
+			  <li><img src="image/thumb4.png"></li>
+			  </ul>
+			  <div class="features-list">
+			  <label>Dental fillings</label>
+			  <label>Whiteneing</label>
+			  </div>
+			  <button class="mdc-button mdc-button--raised vp-btn">View Profile</button>
+              <button class="mdc-button mdc-button--outlined ba-btn">Book Appointment</button>	
+			  </div>
+              <div class="book-detail">
+			  <div class="clender-btn">
+			  <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i><span>29 January 2020</span></a>
+			  </div>
+			  <div class="date-slider">
+       <ul class="nav nav-pills">
+  <div class="owl-carousel owl-theme dateslider">
+  <div class="item">
+    <li class="active"><a data-toggle="pill" href="#mon"><h3>mon</h3><p>11 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#tue"><h3>tue</h3><p>12 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#wed"><h3>Wed</h3><p>13 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#thu"><h3>thu</h3><p>14 Nov 2019</p></a></li>
+	</div>
+	<div class="item">
+    <li><a data-toggle="pill" href="#fri"><h3>fri</h3><p>15 Nov 2019</p></a></li>
+	</div>
+ </div>
+  </ul>
+  <div class="tab-content">
+    <div id="mon" class="tab-pane active">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="tue" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="wed" class="tab-pane">
+     <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+    </div>
+    <div id="thu" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+	<div id="fri" class="tab-pane">
+      <p class="ds-title">26 Slots Available</p>
+	  <ul>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">9:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">10:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  <li><a href="#">11:00 AM</a></li>
+	  </ul>
+      </div>
+    </div>
+       
+			  </div>
+			  </div>
+			  </div>
+</li>
+</ul>
+<button class="mdc-button mdc-button--raised viewmore">View More</button>
+</div>
+<div class="sr-right sidebar">
+<div class="sidebar-map">
+<div class="maip-box"><span class="icon"><img src="image/mapicon.png"></span><span>Locate the doctor nearest you</span></div>
+<div class="maip">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d902.3297615325372!2d55.1689524!3d25.2261769!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f40e5db60ab41%3A0x44e80d4f8da2c596!2sSaudi%20Arabia!5e0!3m2!1sen!2sin!4v1585777270586!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- footer -->
+
+<footer>
+<div class="container">
+<div class="footer-top">
+<div class="row">
+<div class="col-sm-3">
+<div class="footer-logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">About us</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Careers</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Patients
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Search for Doctors</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Register</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Booking</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Doctors
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span> <a href="#">Register</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+Contact Us
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-map-marker" aria-hidden="true"></i></span>3556 Beech Street, San Francisco,
+California, CA 94108</li>
+<li><span class="footer-ico"><i class="fa fa-phone" aria-hidden="true"></i></span>+1 315 369 5943</li>
+<li><span class="footer-ico"><i class="fa fa-envelope" aria-hidden="true"></i></span><a href="#">shefae@example.com</a></li>
+</ul>
+<div class="social-ico">
+<a href="#" class="facebook"><span class="footer-ico"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+<a href="#" class="twitter"><span class="footer-ico"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+<a href="#" class="in"><span class="footer-ico"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+<a href="#" class="insta"><span class="footer-ico"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+<a href="#" class="dribble"><span class="footer-ico"><i class="fa fa-dribbble" aria-hidden="true"></i></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">					
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="copyright-text">
+										<a href="#">shefae system</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+								
+									<!-- Copyright Menu -->
+									<div class="copyright-menu">
+										<ul class="policy-menu">
+											<li><a href="#">Terms and Conditions</a></li>
+											<li><a href="#">Policy</a></li>
+										</ul>
+									</div>
+									<!-- /Copyright Menu -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- /Copyright -->
+
+</div>
+</div>
+</footer>
+
+<!-- login-popup -->
+
+<div class="login-box">
+<span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+<div class="login-inner">
+<h2 class="login-title">Sign in to book an Appointment</h2>
+<div class="login-row">
+<div class="login-img"><img src="image/login-img.png" alt=""></div>
+<div class="login-form">
+<form class="login">
+<h3 class="loginform-title">Login Doccure</h3>
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Email</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+						
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input type="password" class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+<a class="forgotpass" href="#">Forgot Password?</a>
+<button class="mdc-button mdc-button--raised login-btn">Login</button>	
+<div class="separater"><span>or</span></div>	
+<div class="social-login">
+<button class="mdc-button mdc-button--raised fb-btn"><i class="fa fa-facebook" aria-hidden="true"></i> Login</button>
+<button class="mdc-button mdc-button--raised g-btn"><i class="fa fa-google" aria-hidden="true"></i> Login</button>
+</div>	
+<p class="register-link">Don't have an account? <a href="#">Register</a></p>			
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/vendor.bundle.base.js"></script>
+<script src="js/material.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+</html>

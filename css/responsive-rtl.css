@@ -1,0 +1,84 @@
+
+
+@media only screen and (max-width:1199px) {
+	.RTL .extra_link button {
+    margin-right: 7px;
+}
+}
+
+@media only screen and (max-width:991px) {
+.RTL select#language {
+    margin-left: 0px;
+    margin-right: 7px;
+}
+.RTL .social-ico a {
+    margin-right: 0px;
+    margin-left: 13px;
+}
+.RTL div.menu {
+    left: initial;
+    right: -100%;
+}
+.RTL div.menu.active {
+    left: initial;
+    right: 0;
+}
+.RTL .copyright .row div.col-md-6.col-lg-6:nth-child(2) {
+    float: left !important;
+}
+.RTL .register-img {
+    border-left: none;
+}
+}
+
+@media only screen and (max-width:767px) {
+.RTL .col-sm-3 {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:639px) {
+.RTL span.mobile-menu {
+    right: initial;
+    left: 15px;
+}
+.RTL select#language {
+    right: initial;
+    left: 70px;
+}
+.RTL .login-box span.close {
+    left: 5px;
+	right:initial
+}
+.RTL div.tab-details {
+    border-radius: 0px 0px 10px 10px;
+}
+}
+
+@media only screen and (max-width:479px) {
+.RTL .extra_link button {
+    margin-left: 0px;
+	margin-right: 3px;
+}
+.RTL section.main-banner .doctor-ditail {
+    text-align: center;
+}
+.RTL .copyright div.col-md-6.col-lg-6 {
+    float: none !important;
+}
+.RTL .copyright .row div.col-md-6.col-lg-6:nth-child(2) {
+    float: none !important;
+}
+.RTL .register-box h2.register-title a {
+    padding-left: 0px;
+    padding-right: 26px;
+}
+.RTL .register-box h2.register-title a i {
+    left: initial;
+    right: 0;
+}
+.RTL .chat-footer form a {
+    left: 0;
+    right: initial;
+}
+}

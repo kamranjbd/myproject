@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hefae</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/vendor.bundle.base.css" type="text/css" rel="stylesheet">
+<link href="mdi/css/materialdesignicons.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+<link href="css/custom.css" type="text/css" rel="stylesheet">
+<link href="css/custom-rtl.css" type="text/css" rel="stylesheet">
+<link href="css/responsive.css" type="text/css" rel="stylesheet">
+<link href="css/responsive-rtl.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="mdc-theme--background ltr">
+<!-- Header -->
+<header>
+<div class="container">
+<div class="custome-row">
+<!-- Logo -->
+<div class="logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<!-- Menu -->
+<div class="menu">
+<ul>
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Diagnotics</a></li>
+<li><a href="#">Pharmacy</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Home Care</a></li>
+<li><a href="#">Diagnostics</a></li>
+</ul>
+</div>
+<!-- login/doctor btton -->
+<div class="extra_link">
+<span class="mobile-menu"></span>
+<select id="language">
+  <option value="eng">LTR</option>
+  <option value="arbi">RTL</option>
+</select>
+<button class="mdc-button mdc-button--raised">Are you a doctor</button>
+<button class="mdc-button mdc-button--outlined ls-btn">Log in / Sign up</button>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Doctor Search-form -->
+
+<section class="dsf">
+<div class="formbg">
+<div class="container">
+<form>
+<div class="specify">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-search" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="surgery">
+                            surgery
+                          </li>
+                          <li class="mdc-list-item" data-value="heart and blood vessels">
+                            heart and blood vessels
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            Chest and ear
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            Dermatology and cosmetology
+                          </li>
+						  <li class="mdc-list-item" data-value="Common diseases">
+                            Common diseases
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Speciality</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="city">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="10th of ramdan">
+                            10th of ramdan
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose city</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="area">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="cairo">
+                            cairo
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            alexandria
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            sharkia
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose area</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="doctor-name">
+<div class="mdc-text-field">
+                          <i class="fa fa-stethoscope fa-6" aria-hidden="true"></i>
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-line-ripple"></div>
+                          <label for="text-field-hero-input" class="mdc-floating-label">Doctor name</label>
+                        </div>
+</div>
+<div class="subbtn">
+<button class="mdc-button mdc-button--raised"><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+</form>					
+</div>
+</div>
+</section>
+
+<!-- Aboutus-main -->
+
+<section class="tc">
+<div class="container">
+<h3 class="tc-title">Terms and Conditions</h3>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+<li>Phasellus a mi vitae felis ultrices placerat ut ac odio.</li>
+<li>Proin ut leo blandit, lobortis purus vitae, vulputate urna.</li>
+<li>Curabitur vel risus gravida, aliquet neque eget, consequat velit</li>
+<li>Quisque dapibus arcu sed neque efficitur facilisis.</li>
+<li>Vivamus sollicitudin nulla quis arcu venenatis, eget tempor arcu molestie.</li>
+<li>Vestibulum eget nulla eget mauris lacinia rutrum non in massa.</li>
+<li>Sed accumsan tellus eget lacinia elementum.</li>
+<li>In vitae arcu varius, ultrices diam non, porttitor purus.</li>
+<li>Etiam in ligula pretium, mattis nisi sed, bibendum nisl.</li>
+<li>Pellentesque vel dui varius, porta quam at, elementum massa.</li>
+<li>Sed scelerisque nunc ac nulla congue, vitae posuere risus luctus.</li>
+<li>Ut sit amet lectus nec tellus maximus ullamcorper.</li>
+<li>Praesent posuere ex at placerat facilisis.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<!-- footer -->
+
+<footer>
+<div class="container">
+<div class="footer-top">
+<div class="row">
+<div class="col-sm-3">
+<div class="footer-logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">About us</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Careers</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Patients
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Search for Doctors</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Register</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Booking</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Doctors
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span> <a href="#">Register</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+Contact Us
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-map-marker" aria-hidden="true"></i></span>3556 Beech Street, San Francisco,
+California, CA 94108</li>
+<li><span class="footer-ico"><i class="fa fa-phone" aria-hidden="true"></i></span>+1 315 369 5943</li>
+<li><span class="footer-ico"><i class="fa fa-envelope" aria-hidden="true"></i></span><a href="#">shefae@example.com</a></li>
+</ul>
+<div class="social-ico">
+<a href="#" class="facebook"><span class="footer-ico"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+<a href="#" class="twitter"><span class="footer-ico"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+<a href="#" class="in"><span class="footer-ico"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+<a href="#" class="insta"><span class="footer-ico"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+<a href="#" class="dribble"><span class="footer-ico"><i class="fa fa-dribbble" aria-hidden="true"></i></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">					
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="copyright-text">
+										<a href="#">shefae system</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+								
+									<!-- Copyright Menu -->
+									<div class="copyright-menu">
+										<ul class="policy-menu">
+											<li><a href="#">Terms and Conditions</a></li>
+											<li><a href="#">Policy</a></li>
+										</ul>
+									</div>
+									<!-- /Copyright Menu -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- /Copyright -->
+
+</div>
+</div>
+</footer>
+
+<!-- login-popup -->
+
+<div class="login-box">
+<span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+<div class="login-inner">
+<h2 class="login-title">Sign in to book an Appointment</h2>
+<div class="login-row">
+<div class="login-img"><img src="image/login-img.png" alt=""></div>
+<div class="login-form">
+<form class="login">
+<h3 class="loginform-title">Login Doccure</h3>
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Email</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+						
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input type="password" class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+<a class="forgotpass" href="#">Forgot Password?</a>
+<button class="mdc-button mdc-button--raised login-btn">Login</button>	
+<div class="separater"><span>or</span></div>	
+<div class="social-login">
+<button class="mdc-button mdc-button--raised fb-btn"><i class="fa fa-facebook" aria-hidden="true"></i> Login</button>
+<button class="mdc-button mdc-button--raised g-btn"><i class="fa fa-google" aria-hidden="true"></i> Login</button>
+</div>	
+<p class="register-link">Don't have an account? <a href="#">Register</a></p>			
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/vendor.bundle.base.js"></script>
+<script src="js/material.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+</html>

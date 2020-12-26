@@ -1,0 +1,450 @@
+/*RTL Css*/
+
+/*home page*/
+
+body.RTL {
+    direction: rtl;
+}
+.RTL .extra_link button {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.RTL .formbg form .mdc-select i {
+    left: initial;
+    right: 10px;
+}
+.RTL .formbg form .mdc-select .mdc-floating-label {
+    left: initial;
+    right: 30px;
+}
+.RTL .formbg form .mdc-select .mdc-select__selected-text {
+    text-align: right;
+}
+.RTL .doctor-name i {
+    left: initial;
+    right: 10px;
+}
+.RTL .formbg form input#text-field-hero-input {
+    padding-left: 15px;
+    padding-right: 30px;
+    text-align: right;
+}
+.RTL .formbg form .mdc-text-field .mdc-floating-label {
+    left: initial;
+    right: 30px;
+}
+.RTL .owl-carousel {
+    direction: ltr;
+}
+.RTL .owl-carousel .owl-item {
+    float: right;
+}
+.RTL section.main-banner .doctor-ditail {
+    float: right;
+    text-align: right;
+}
+.RTL section.main-banner .doctor-image {
+    float: left;
+}
+.RTL section.main-banner .doctor-image img {
+    float: left;
+}
+.RTL .slider-header a.title-linke {
+    float: left;
+}
+.RTL .pdbox div.item {
+    direction: rtl;
+}
+.RTL .pd-des ul li {
+    text-align: right;
+}
+.RTL .pd-item ul li span.icon {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.RTL .app-download form button.mdc-button {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.RTL .mdc-notched-outline {
+    text-align: right;
+}
+.RTL .app-download input#text-field-hero-input {
+    padding-left: 15px;
+    padding-right: 70px;
+	text-align: right;
+}
+.RTL .dright {
+    direction: ltr;
+    text-align: right;
+}
+.RTL .app-download .mdc-text-field.mdc-text-field--outlined {
+    float: right;
+    text-align: right;
+}
+.RTL .app-download span.ccode {
+    right: 0;
+}
+.RTL .app-download span.ccode::after {
+    left: -40px;
+}
+.RTL div.app-img img {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.RTL .col-sm-3 {
+    float: right !important;
+}
+.RTL .col-lg-6 {
+    float: right !important;
+}
+.RTL .footer-top ul li span.footer-ico {
+    right: 0;
+    left: inherit;
+}
+.RTL .footer-top ul li {
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.RTL .footer-top ul li .fa-angle-double-right:before {
+    content: "\f100";
+}
+.RTL .social-ico a {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.RTL .copyright-menu {
+    text-align: left;
+}
+.RTL ul.policy-menu li:last-child {
+    border-left: none;
+    border-right: 1px solid #fff;
+}
+
+/*login*/
+
+.RTL form.login {
+    direction: ltr;
+    text-align: right;
+}
+.RTL div.login-box div.login-img {
+    float: right;
+}
+.RTL div.login-form {
+    float: left;
+}
+.RTL .login .mdc-notched-outline__notch {
+    position: absolute;
+    right: 15px;
+    left: initial;
+}
+.RTL  div.login-form .mdc-text-field--outlined.mdc-notched-outline--upgraded .mdc-floating-label--float-above, 
+.RTL  div.login-form .mdc-text-field--outlined .mdc-notched-outline--upgraded .mdc-floating-label--float-above {
+    padding: 0px 10px;
+    width: auto !important;
+	background:#fff;
+}
+.RTL div.login-form  .mdc-text-field--outlined .mdc-text-field__input {
+    text-align: right;
+}
+.RTL div.login-form .login-box span.close {
+    right: initial;
+    float: left;
+    left: -20px;
+}
+.RTL div.login-form a.forgotpass {
+    float: left;
+}
+.RTL .social-login button.mdc-button.g-btn {
+    float: left;
+}
+.RTL .login-box span.close {
+    right: initial;
+    float: left;
+    left: -20px;
+}
+
+/*register*/
+
+.RTL .fa-arrow-left:before {
+    content: "\f061";
+}
+.RTL .register-img {
+    float: right;
+    border-right: none;
+    border-left: 1px solid #ccc;
+}
+.RTL .register-form {
+    float: left;
+}
+.RTL .social-login button i {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.RTL .register div.input-field {
+    direction: ltr;
+}
+.RTL .register div.input-field > label {
+    float: right;
+}
+.RTL .register .slright {
+    float: left;
+}
+.RTL .register .mdc-notched-outline__notch {
+    right: 15px;
+	position:absolute;
+}
+.RTL .register .mdc-text-field .mdc-floating-label {
+    background: #fff;
+    padding: 0px 10px;
+}
+.RTL .register .slright .mdc-form-field {
+    float: right;
+}
+.RTL .register input {
+    text-align: right;
+}
+.RTL .register .slright {
+    text-align: right;
+}
+
+/*search*/
+
+.RTL .search-title .title-box {
+    float: right;
+}
+.RTL .search-title div.fillter-box {
+    float: left;
+    direction: ltr;
+}
+.RTL ul.search-list li.search-itme .se-image {
+    float: right;
+}
+.RTL ul.search-list li.search-itme .se-des {
+    float: right;
+}
+.RTL ul.search-list li.search-itme div.se-buttons {
+    float: left;
+}
+.RTL ul.search-list li.search-itme .se-des ul li {
+    float: right;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.RTL ul.search-list li.search-itme .se-des ul li span.icon {
+    width: 25px;
+    display: inline-block;
+    margin-right: 0px;
+    padding-top: 0px;
+    margin-left: 5px;
+}
+.RTL ul.search-list li.search-itme div.se-buttons ul.thumb-img li {
+    float: right;
+}
+.RTL .features-list label {
+    float: right;
+}
+.RTL .features-list label:nth-child(even) {
+    float: left;
+}
+.RTL .clender-btn a i {
+    margin-left: 7px;
+}
+.RTL .sr-right.sidebar {
+    float: left;
+}
+.RTL .sr-left {
+    float: right;
+}
+.RTL .maip-box span.icon {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.RTL .clender-btn a {
+    float: left;
+}
+
+/*profile*/
+
+.RTL .breadcum ul li a::after {
+    content: '/';
+    left: initial;
+    right: 7px;
+}
+.RTL div.callchat a {
+    display: inline-block;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.RTL div.tab-details {
+    border-radius: 10px 0px 10px 10px;
+}
+.RTL .pd-item {
+    direction: rtl;
+}
+.RTL .brandsection div.brand {
+    float: right;
+}
+.RTL .brandsection div.brand:nth-child(even) {
+    float: left;
+}
+.RTL .main.profil div.profile-twocoll .leftcol {
+    float: right;
+}
+.RTL .sidebar {
+    float: left;
+}
+
+/*bookappoinment*/
+
+.RTL .checkout-twocoll div.leftcol {
+    float: right;
+}
+.RTL .sidebar.rightcol div.chk-right span.icon img {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.RTL .sidebar.rightcol div.chk-right .chk-image {
+    float: right;
+}
+.RTL .sidebar.rightcol div.chk-right div.chk-des {
+    float: left;
+}
+.RTL .checkout-twocoll div.leftcol .formfiled {
+    direction: ltr;
+    text-align: right;
+}
+.RTL .chkout .field .mdc-notched-outline__notch {
+    position: absolute;
+    right: 15px;
+}
+.RTL .chkout .mdc-text-field--outlined .mdc-text-field__input {
+    text-align: right;
+}
+.RTL .checkout-twocoll .formfiled .field:nth-of-type(even) {
+    float: left;
+}
+.RTL .checkout-twocoll .formfiled .field {
+    width: 49%;
+    float: right;
+    margin-bottom: 15px;
+}
+.RTL .checkout-twocoll .formfiled .emeycvv .field.cvv {
+    float: left !important;
+}
+.RTL .checkout-twocoll .formfiled .emeycvv .field.ey {
+    float: none !important;
+}
+.RTL .checkout-twocoll .formfiled .field.tc {
+    float: right;
+    direction: rtl;
+    width: 100%;
+}
+.RTL .success-twocoll div.leftcol {
+    float: right;
+}
+
+/*chat*/
+
+.RTL div.sidebar.left {
+    float: right;
+}
+.RTL .sidebar-chat.profile .se-image {
+    float: right;
+}
+.RTL .sidebar-chat.profile .name-rat {
+    float: left;
+}
+.RTL .sidebar-chat.coversation .con-title .newmessage {
+    float: left;
+}
+.RTL .chat-twocoll div.mainchat {
+    float: left;
+}
+.RTL .chat-header div.right {
+    display: inline-block;
+    float: left;
+}
+.RTL .chatsection div.chat-header .left .pro-pic {
+    width: 50px;
+    display: inline-block;
+    float: right;
+    margin-right: 0px;
+    position: relative;
+    margin-left: 15px;
+}
+.RTL div.doctor-chat {
+    direction: ltr;
+    text-align: right;
+}
+.RTL div.doctor-chat ul {
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.RTL div.doctor-chat ul li:first-child .message::before {
+    content: "";
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: initial;
+    top: 6px;
+    right: -8px;
+	border-right: none;
+}
+.RTL div.doctor-chat span.propic {
+    right: 0;
+}
+.RTL div.me-chat {
+    direction: ltr;
+}
+.RTL div.me-chat ul .message {
+    float: left;
+}
+.RTL div.me-chat ul {
+    list-style: none;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.RTL div.me-chat ul li:first-child .message::after {
+    content: "";
+    position: absolute;
+    right: initial;
+    top: 6px;
+    border-right: 10px solid #e3e3e3;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: 3px;
+	border-left: none;
+}
+.RTL .chat-footer button.chat-send {
+    float: left;
+}
+
+/*call*/
+
+.RTL .selfpic img {
+    float: left;
+}
+.RTL .chat-footer form a {
+    left: 15px;
+    right: initial;
+}
+.RTL div.callduration p span img {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+/*aboutus*/
+
+.RTL .aboutcontent {
+    float: right;
+}
+.RTL section.tc ul {
+    padding-left: 0px;
+    padding-right: 20px;
+}

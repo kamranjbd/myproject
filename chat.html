@@ -1,0 +1,495 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hefae</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link href="css/vendor.bundle.base.css" type="text/css" rel="stylesheet">
+<link href="mdi/css/materialdesignicons.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+<link href="css/owl.theme.default.min.css" type="text/css" rel="stylesheet">
+<link href="css/custom.css" type="text/css" rel="stylesheet">
+<link href="css/custom-rtl.css" type="text/css" rel="stylesheet">
+<link href="css/responsive.css" type="text/css" rel="stylesheet">
+<link href="css/responsive-rtl.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="mdc-theme--background ltr">
+<!-- Header -->
+<header>
+<div class="container">
+<div class="custome-row">
+<!-- Logo -->
+<div class="logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<!-- Menu -->
+<div class="menu">
+<ul>
+<li class="active"><a href="#">Home</a></li>
+<li><a href="#">Diagnotics</a></li>
+<li><a href="#">Pharmacy</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Home Care</a></li>
+<li><a href="#">Diagnostics</a></li>
+</ul>
+</div>
+<!-- login/doctor btton -->
+<div class="extra_link">
+<span class="mobile-menu"></span>
+<select id="language">
+  <option value="eng">LTR</option>
+  <option value="arbi">RTL</option>
+</select>
+<button class="mdc-button mdc-button--raised">Are you a doctor</button>
+<button class="mdc-button mdc-button--outlined ls-btn">Log in / Sign up</button>
+</div>
+</div>
+</div>
+</header>
+
+<!-- Doctor Search-form -->
+
+<section class="dsf">
+<div class="formbg">
+<div class="container">
+<form>
+<div class="specify">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-search" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="surgery">
+                            surgery
+                          </li>
+                          <li class="mdc-list-item" data-value="heart and blood vessels">
+                            heart and blood vessels
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            Chest and ear
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            Dermatology and cosmetology
+                          </li>
+						  <li class="mdc-list-item" data-value="Common diseases">
+                            Common diseases
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Speciality</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="city">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="10th of ramdan">
+                            10th of ramdan
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose city</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="area">
+								<div class="mdc-select demo-width-class" data-mdc-auto-init="MDCSelect">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+                      <input type="hidden" name="enhanced-select">
+                      <div class="mdc-select__selected-text"></div>
+                      <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                        <ul class="mdc-list">
+                          <li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
+                          </li>
+                          <li class="mdc-list-item" data-value="cairo">
+                            cairo
+                          </li>
+                          <li class="mdc-list-item" data-value="giza">
+                            giza
+                          </li>
+                          <li class="mdc-list-item" data-value="Chest and ear">
+                            alexandria
+                          </li>
+						  <li class="mdc-list-item" data-value="Dermatology and cosmetology">
+                            sharkia
+                          </li>
+                        </ul>
+                      </div>
+                      <span class="mdc-floating-label">Choose area</span>
+                      <div class="mdc-line-ripple"></div>
+                    </div>
+					</div>
+<div class="doctor-name">
+<div class="mdc-text-field">
+                          <i class="fa fa-stethoscope fa-6" aria-hidden="true"></i>
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-line-ripple"></div>
+                          <label for="text-field-hero-input" class="mdc-floating-label">Doctor name</label>
+                        </div>
+</div>
+<div class="subbtn">
+<button class="mdc-button mdc-button--raised"><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+</form>					
+</div>
+</div>
+</section>
+
+<!-- search-main -->
+
+<section class="main chat">
+
+<div class="container">
+
+<!-- tow-coloms -->
+
+<div class="chat-twocoll">
+<div class="sidebar left">
+<div class="sidebar-chat profile">
+<div class="se-item">
+              <div class="profile-rating">
+			  <div class="se-image">
+			  <img src="image/sdoctor.png" alt="doctor">
+			  </div>
+			  <div class="name-rat">
+			  <p class="dname">Dr. Ruby Perrin</p>
+			  <div class="rating"><img src="image/rating.png" alt="rating"><span class="count">(17)</span></div>
+			  </div>
+			  </div>
+			  <div class="se-des">
+			  <p class="post">Periodontology and Oral Implantology</p>
+			  <ul>
+			  <li><span class="icon"><img src="image/mapicon.png"></span><span>11 Farid st, Helioplis</span></li>
+			  <li><span class="icon"><img src="image/exper.png"></span><span>8 Year experience</span></li>
+			  <li><span class="icon"><img src="image/le.png"></span><span>300 - 450 L.E</span></li>
+			  <li><span class="icon"><img src="image/time.png"></span><span class="time">Wait time: <span class="blue">30 minutes</span></span></li>
+			  <li><span class="icon"><img src="image/call.png"></span><span>19987: Cost of a regular call</span></li>
+			  </ul>
+			  </div>
+			  </div>
+</div>
+<div class="sidebar-chat coversation">
+<div class="con-title">
+<h3 class="conve-title">All Conversations</h3>
+<button class="mdc-button mdc-button--raisedn newmessage">New Message</button>
+</div>
+<ul class="conv-message">
+<li>
+<div class="profile-pic group">
+<img src="image/profilepic.png" class="pro1">
+<img src="image/profilepic1.png" class="pro2">
+</div>
+<div class="conv-mess">
+<span>Nurses</span>
+<p>You should have access to all the documents now but. . .</p>
+</div>
+<div class="time-view">
+<span class="day">4:01 PM</span>
+<span class="view-count">2</span>
+</div>
+</li>
+<li class="active">
+<div class="profile-pic group">
+<img src="image/profilepic.png" class="pro1">
+<img src="image/profilepic1.png" class="pro2">
+</div>
+<div class="conv-mess">
+<span>New Team Member</span>
+<p>Congratulations, I knew that you’d be great for this role. . .</p>
+</div>
+<div class="time-view">
+<span class="day">4:01 PM</span>
+</div>
+</li>
+<li>
+<div class="profile-pic group">
+<img src="image/profilepic.png" class="pro1">
+<img src="image/profilepic1.png" class="pro2">
+</div>
+<div class="conv-mess">
+<span>First Project</span>
+<p>I’m just trying to get a better idea on the overall client. . .</p>
+</div>
+<div class="time-view">
+<span class="day">3 Weeks ago</span>
+<span class="view-chk"><i class="fa fa-check" aria-hidden="true"></i></span>
+</div>
+</li>
+<li>
+<div class="profile-pic">
+<img src="image/profilepic.png" class="pro1">
+</div>
+<div class="conv-mess">
+<span>New Job Opportunity</span>
+<p>I’d like to officially welcome you to our  team. . .</p>
+</div>
+<div class="time-view">
+<span class="day">3 DEC 19</span>
+<span class="view-count">1</span>
+</div>
+</li>
+<li>
+<div class="profile-pic group">
+<img src="image/profilepic.png" class="pro1">
+<img src="image/profilepic1.png" class="pro2">
+</div>
+<div class="conv-mess">
+<span>Nurses</span>
+<p>You should have access to all the documents now but. . .</p>
+</div>
+<div class="time-view">
+<span class="day">4:01 PM</span>
+<span class="view-count">2</span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="mainchat">
+<h2 class="rmainchat-title"><a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i> Dr. Darren Elder / Life Chat</a></h2>
+<div class="chatsection">
+<div class="chat-header">
+<div class="left">
+<div class="pro-pic"><a href="#"><img src="image/docprofile.png"><span class="online"></span></a>
+</div>
+<h3 class="docname">Dr. Darren Elder</h3>
+<p>Online</p>
+</div>
+<div class="right">
+<ul>
+<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i></a></li>
+<li><a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a></li>
+</ul>
+</div>
+</div>
+<div class="chat-body">
+<div class="doctor-chat">
+<span class="propic"><img src="image/docprofile.png"></span>
+<ul>
+<li>
+<div class="message">
+<p>I'm just looking around. <br> Will you tell me somthing about yourself?</p>
+<span class="datetime">8:35 AM</span>
+</div>
+</li>
+<li>
+<div class="message">
+<p>Are you there? That time!</p>
+<span class="datetime">8:40 AM</span>
+</div>
+</li>
+<li>
+<div class="message">
+<p>Are you there? That time!</p>
+<span class="datetime">8:41 AM</span>
+</div>
+</li>
+<li>
+<div class="message">
+<p><img src="image/chatimg.png"> <img src="image/chatimg1.png"></p>
+<span class="datetime">8:42 AM</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="me-chat">
+<ul>
+<li>
+<div class="message">
+<p>Where?</p>
+<span class="datetime">8:35 AM</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="doctor-chat">
+<span class="propic"><img src="image/docprofile.png"></span>
+<ul>
+<li>
+<div class="message">
+<p>you wait for notice.<br> Consectetourem ipsum dolor site?</p>
+<span class="datetime">8:35 AM</span>
+</div>
+</li>
+</ul>
+</div>
+<div class="doctor-chat">
+<div class="seprtor"><span>Today</span></div>
+<span class="propic"><img src="image/docprofile.png"></span>
+<ul>
+<li>
+<div class="message">
+<p>Consectetourem ipsum dolor site?</p>
+<span class="datetime">8:35 AM</span>
+<a href="#">Edit</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="chat-footer">
+<form>
+<a href="#"><i class="fa fa-paperclip" aria-hidden="true"></i></a>
+<input type="text" placeholder="Type Something">
+<button class="mdc-button mdc-button--raised chat-send"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- footer -->
+
+<footer>
+<div class="container">
+<div class="footer-top">
+<div class="row">
+<div class="col-sm-3">
+<div class="footer-logo"><a href="#"><img src="image/logo.png" alt="logo"></a></div>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">About us</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Careers</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Patients
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Search for Doctors</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Register</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Booking</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+For Doctors
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="#">Login</a></li>
+<li><span class="footer-ico"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span> <a href="#">Register</a></li>
+</ul>
+</div>
+<div class="col-sm-3">
+<h3 class="footer-title">
+Contact Us
+</h3>
+<ul>
+<li><span class="footer-ico"><i class="fa fa-map-marker" aria-hidden="true"></i></span>3556 Beech Street, San Francisco,
+California, CA 94108</li>
+<li><span class="footer-ico"><i class="fa fa-phone" aria-hidden="true"></i></span>+1 315 369 5943</li>
+<li><span class="footer-ico"><i class="fa fa-envelope" aria-hidden="true"></i></span><a href="#">shefae@example.com</a></li>
+</ul>
+<div class="social-ico">
+<a href="#" class="facebook"><span class="footer-ico"><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+<a href="#" class="twitter"><span class="footer-ico"><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+<a href="#" class="in"><span class="footer-ico"><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+<a href="#" class="insta"><span class="footer-ico"><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+<a href="#" class="dribble"><span class="footer-ico"><i class="fa fa-dribbble" aria-hidden="true"></i></span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="footer-bottom">					
+						<!-- Copyright -->
+						<div class="copyright">
+							<div class="row">
+								<div class="col-md-6 col-lg-6">
+									<div class="copyright-text">
+										<a href="#">shefae system</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-6">
+								
+									<!-- Copyright Menu -->
+									<div class="copyright-menu">
+										<ul class="policy-menu">
+											<li><a href="#">Terms and Conditions</a></li>
+											<li><a href="#">Policy</a></li>
+										</ul>
+									</div>
+									<!-- /Copyright Menu -->
+									
+								</div>
+							</div>
+						</div>
+						<!-- /Copyright -->
+
+</div>
+</div>
+</footer>
+
+<!-- login-popup -->
+
+<div class="login-box">
+<span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+<div class="login-inner">
+<h2 class="login-title">Sign in to book an Appointment</h2>
+<div class="login-row">
+<div class="login-img"><img src="image/login-img.png" alt=""></div>
+<div class="login-form">
+<form class="login">
+<h3 class="loginform-title">Login Doccure</h3>
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Email</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+						
+<div class="mdc-text-field mdc-text-field--outlined">
+                          <input type="password" class="mdc-text-field__input" id="text-field-hero-input">
+                          <div class="mdc-notched-outline">
+                            <div class="mdc-notched-outline__leading"></div>
+                            <div class="mdc-notched-outline__notch">
+                              <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
+                            </div>
+                            <div class="mdc-notched-outline__trailing"></div>
+                          </div>
+                        </div>
+<a class="forgotpass" href="#">Forgot Password?</a>
+<button class="mdc-button mdc-button--raised login-btn">Login</button>	
+<div class="separater"><span>or</span></div>	
+<div class="social-login">
+<button class="mdc-button mdc-button--raised fb-btn"><i class="fa fa-facebook" aria-hidden="true"></i> Login</button>
+<button class="mdc-button mdc-button--raised g-btn"><i class="fa fa-google" aria-hidden="true"></i> Login</button>
+</div>	
+<p class="register-link">Don't have an account? <a href="#">Register</a></p>			
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+</body>
+
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/vendor.bundle.base.js"></script>
+<script src="js/material.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+</html>
